@@ -1,0 +1,2 @@
+gcc -Wall -c seeU.c
+gcc -Wall -L/usr/local/lib -o seeU_test seeU_test.c seeU.o -lcunit
