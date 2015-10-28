@@ -1,2 +1,5 @@
 gcc -Wall -c seeU.c
 gcc -Wall -L/usr/local/lib -o seeU_test seeU_test.c seeU.o -lcunit
+
+
+gcc -Wall testrun.c -I/usr/include -L/usr/local/lib -lcunit -o testrun
